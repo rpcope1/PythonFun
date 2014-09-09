@@ -1,0 +1,11 @@
+#ifndef SAMPLE_GLS
+#define SAMPLE_GLS
+
+
+#include "library1.h"
+#include "library2.h"
+
+
+
+
+#endif
