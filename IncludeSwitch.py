@@ -58,7 +58,7 @@ def modify_includes(file_path, file_name):
                 count_end_if += 1
                 if count_end_if == number_of_end_if:
                     print "success"
-                    output_h.write('#include "' + file_name + '.h\"\n' + line)
+                    output_h.write('#include "' + file_name + '.gls\"\n' + line)
                 else:
                     output_h.write(line)
             else:
